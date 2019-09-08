@@ -16,7 +16,7 @@ const Header = ({ setSearchQuery }) => {
           <img
             src={cameraIcon}
             alt="Camera Icon"
-            className="inline-block mr-2"
+            className="inline-block w-1/3 pr-1"
           />
             Splash
           </h1>
