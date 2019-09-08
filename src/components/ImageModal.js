@@ -45,9 +45,8 @@ const ImageModal = ({ handleClose, modalObj }) => {
             href={modalObj.links.download}
             rel="noreferrer noopener"
             target="_blank"
-            className="inline-block text-sm px-4 py-2 leading-none border rounded text-black border-black hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
-          >
-            Download
+            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+              <i class="fas fa-arrow-to-bottompr-2"></i> Download
           </a>
         </div>
 
@@ -102,9 +101,8 @@ const ImageModal = ({ handleClose, modalObj }) => {
                 href={modalObj.links.download}
                 rel="noreferrer noopener"
                 target="_blank"
-                className="inline-block text-sm px-4 py-2 leading-none border rounded text-black border-black hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
-              >
-                Download
+                className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                  <i class="fas fa-arrow-to-bottom pr-2"></i> Download
               </a>
             </div>
 
