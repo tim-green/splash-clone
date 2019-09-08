@@ -18,7 +18,7 @@ const Loader = ({ abort, width }) => {
   return (
     <LoaderArea>
       <img src={circleLoader} width={iconWidth} alt="loading" />
-      <p className="loading__text">Loading...</p>
+      <p className="loading__text">Loading Photos...</p>
     </LoaderArea>
   );
 };
