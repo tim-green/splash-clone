@@ -27,12 +27,12 @@ const ImageCard = ({ item, handleCardClick }) => {
       />
 
       <div className="item__overlay absolute top-0 opacity-75 bg-white p-4 w-full h-full hidden parent-hover:show-card">
-        {/* <a
+        {<a
           className="action download"
           href={item.links.html}
           target="_blank"
           rel="noopener noreferrer nofollow"
-        /> */}
+        /> }
 
         <div className="item__meta">
           <h4 className="text-gray-900 text-left font-bold text-xl mb-2 capitalize">
