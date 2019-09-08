@@ -35,7 +35,7 @@ const ImageCard = ({ item, handleCardClick }) => {
         /> */}
 
         <div className="item__meta">
-          <h4 className="text-gray-900 text-left font-bold text-xl mb-2">
+          <h4 className="text-gray-900 text-left font-bold text-xl mb-2 capitalize">
             {item.alt_description}
           </h4>
 
