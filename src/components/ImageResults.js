@@ -47,7 +47,7 @@ const ImageResults = ({ query, currentPage, setCurrentPage }) => {
   const fetchTask = useAsyncTaskFetch(url);
   const combinedTask = useAsyncCombineSeq(delayTask, fetchTask);
   useAsyncRun(combinedTask);
-  if (delayTask.pending) return <div className="flex items-center justify-center h-screen">Waiting...</div>
+  if (delayTask.pending) return <div className="flex items-center justify-center h-screen">Hold on...</div>
   if (fetchTask.error) return <Err error={fetchTask.error} />;
   if (fetchTask.pending) return <div className="flex items-center justify-center h-screen"><Loader abort={fetchTask.abort} width="200" /></div>;
   if (!fetchTask.result) return <div>No result</div>;
