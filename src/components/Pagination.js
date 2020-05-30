@@ -30,7 +30,7 @@ const Pagination = ({ currentPage, setCurrentPage, totalPages }) => {
       lastPage = totalPages;
     } else {
       startPage = currentPage - 5;
-      //need to force rentPage to number here. to do Implement better typing
+      //need to force currentPage to number here. to do Implement better typing
       lastPage = Number(currentPage) + 4;
     }
 
@@ -54,10 +54,10 @@ const Pagination = ({ currentPage, setCurrentPage, totalPages }) => {
   };
 
   return (
-    <ul className="flex flex-wrap list-reset border border-grey-light rounded max-w-auto font-sans">
+    <ul className="flex flex-wrap max-w-auto">
       <li>
         <button
-          className="block hover:text-gray-500 hover:bg-blue text-blue border-r border-grey-light px-3 py-2"
+          className="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg"
           value="1"
           onClick={updateCurrentPage}
         >
@@ -81,7 +81,7 @@ const Pagination = ({ currentPage, setCurrentPage, totalPages }) => {
         <button
           className={
             currentPage === page
-              ? "block text-gray-500 bg-blue border-r border-blue px-3 py-2"
+              ? "mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg"
               : "block hover:text-gray-500 hover:bg-blue text-blue border-r border-grey-light px-3 py-2"
           }
           value={page}
@@ -103,7 +103,7 @@ const Pagination = ({ currentPage, setCurrentPage, totalPages }) => {
       </li>
       <li>
         <button
-          className="block hover:text-gray-500 hover:bg-blue text-blue border-r border-grey-light px-3 py-2"
+          className="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg"
           value={endIndex}
           onClick={updateCurrentPage}
         >
