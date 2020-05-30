@@ -63,16 +63,10 @@ const ImageResults = ({ query, currentPage, setCurrentPage }) => {
   return (
     <main className="relative pt-32 lg:pt-24 xl:pt-24">
       <section className="flex flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-between w-full p-6 mb-4">
-        <h3 className="text-1xl font-light text-left mb-2 ">
+        <h3 className="text-3xl font-light text-left mb-2 pt-8">
           {fetchTask.result.total} results for{" "}
           <span className="font-semibold">{query}</span>
         </h3>
-
-        <Pagination
-          currentPage={currentPage}
-          setCurrentPage={setCurrentPage}
-          totalPages={fetchTask.result.total_pages}
-        />
       </section>
 
       <section id="gallery" className="gridStyle px-4">
