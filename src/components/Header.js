@@ -1,7 +1,7 @@
 import React from "react";
 
 import Searchbar from "./Searchbar";
-import cameraIcon from "../images/camera-regular.svg";
+import cameraIcon from "../images/camera-white.svg";
 
 const Header = ({ setSearchQuery }) => {
   return (
