@@ -12,7 +12,7 @@ const Header = ({ setSearchQuery }) => {
       >
         <div className="mb-2 p-2">
           
-          <h1 className="font-semibold text-2xl tracking-tight text-black">
+          <h1 className="font-semibold text-2xl tracking-tight text-white">
           <img
             src={cameraIcon}
             alt="Camera Icon"
@@ -20,7 +20,7 @@ const Header = ({ setSearchQuery }) => {
           />
             Splash
           </h1>
-          <h5 className="text-xs text-right tracking-tight text-gray-800">My Clone of 
+          <h5 className="text-xs text-right tracking-tight text-gray-100">My Clone of 
           <a href="https://unsplash.com/"
             target="_blank"
             rel="noopener noreferrer"
