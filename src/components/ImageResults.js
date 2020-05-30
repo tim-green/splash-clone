@@ -77,6 +77,17 @@ const ImageResults = ({ query, currentPage, setCurrentPage }) => {
         ))}
       </section>
 
+        <section id="pagination" class="flex items-center justify-center px-4 py-12">
+          <div class="rounded-lg border shadow-lg p-4">
+            <Pagination
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+            totalPages={fetchTask.result.total_pages}
+            />
+          </div>
+        </section>
+
+
       <ImageModal handleClose={closeModal} modalObj={modalObj} />
     </main>
   );
