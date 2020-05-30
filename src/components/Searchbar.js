@@ -13,10 +13,10 @@ const Searchbar = ({ setSearchQuery }) => {
     return(
         <>
             <input 
-            className="w-full shadow-inner p-4 border-0 text-gray-700 rounded bg-gray-300" 
+            className="w-full shadow-inner p-4 border-0 text-black rounded bg-white" 
             type="text" 
             name="search" 
-            placeholder="Your search starts right here...."
+            placeholder="Your search starts here...."
             onKeyPress={handleChangeAndEnter}
 
              />
