@@ -27,7 +27,8 @@ const ImageCard = ({ item, handleCardClick }) => {
       />
 
       <div className="item__overlay absolute top-0 opacity-75 bg-white p-4 w-full h-full hidden parent-hover:show-card">
-        {<a
+        {// eslint-disable-next-line 
+          <a
           className="action download"
           href={item.links.html}
           target="_blank"
