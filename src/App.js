@@ -9,14 +9,14 @@ import ImageResults from './components/ImageResults'
 
 function App() {
 
-  const [searchQuery, setSearchQuery] = useState("jazz");
+  const [searchQuery, setSearchQuery] = useState("gaming");
   const [currentPage , setCurrentPage ] = useState(1)
 
   return (
     <div className="App">
       <Header setSearchQuery={setSearchQuery} />
 
-      {/* <HomeScreen /> */}
+      {/* <Searchbar /> <HomeScreen /> */}
 
       <ImageResults query={searchQuery} currentPage={currentPage} setCurrentPage={setCurrentPage} />
     </div>
