@@ -7,7 +7,7 @@ const Header = ({ setSearchQuery }) => {
   return (
     <header className="fixed w-full z-40">
       <nav
-        className="flex flex-col lg:flex-row items-center justify-between flex-wrap py-4 px-6 shadow bg-white"
+        className="flex flex-col lg:flex-row items-center justify-between flex-wrap py-4 px-6 shadow bg-gray-900"
         // style={{ backgroundColor: `rgba(255,255,255,1)` }}
       >
         <div className="mb-2 p-2">
