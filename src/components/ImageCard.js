@@ -4,13 +4,7 @@ import Loader from "./Loader";
 
 import Img from "react-image";
 
-
-
 const ImageCard = ({ item, handleCardClick }) => {
-
-  
-
-  
 
   return (
     <div
@@ -53,7 +47,7 @@ const ImageCard = ({ item, handleCardClick }) => {
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <p className="text-gray-900 leading-none"> {item.user.name}</p>
+                <p className="text-gray-900 leading-none">{item.user.name}</p>
               </a>
               <p className="text-gray-600">
                 {distanceInWordsToNow(item.created_at, {
@@ -65,10 +59,6 @@ const ImageCard = ({ item, handleCardClick }) => {
           </div>
         </div>
       </div>
-
-     
-    
-
 
     </div>
   );
