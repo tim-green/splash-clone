@@ -1,3 +1,4 @@
+// tailwind.config.js
 module.exports = {
   theme: {
         extend: {
@@ -7,7 +8,10 @@ module.exports = {
          'mono': ['SFMono-Regular', 'Menlo'],
          'display': ['Oswald'],
          'body': ['Open Sans'],
-        }
+        },
+        colors: {
+          gray: {colors.gray,'900': '#2e2e2e'}
+        }   
     }
   },
   variants: {},
