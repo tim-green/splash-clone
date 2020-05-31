@@ -1,7 +1,7 @@
 import React from "react";
 import { distanceInWordsToNow } from "date-fns";
 
-import closeIcon from "../images/close-icon.svg";
+import closeIcon from "../images/close-icon-white.svg";
 
 const ImageModal = ({ handleClose, modalObj }) => {
   //console.log(modalObj.urls)
