@@ -67,11 +67,11 @@ const Pagination = ({ currentPage, setCurrentPage, totalPages }) => {
 
       <li>
         <button
-          className="block hover:text-gray-500 hover:bg-blue text-blue border-r border-grey-light px-3 py-2"
+          className="block hover:text-gray-500 hover:bg-blue text-blue border-grey-light pl-0 px-3 py-2"
           value={prevVal}
           onClick={updateCurrentPage}
         >
-           &#xab;
+           {/* &#xab; */}
            
         </button>
       </li>
@@ -82,7 +82,7 @@ const Pagination = ({ currentPage, setCurrentPage, totalPages }) => {
           className={
             currentPage === page
               ? "mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg"
-              : "block hover:text-gray-500 hover:bg-blue text-blue border-r border-grey-light px-3 py-2"
+              : "block mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg"
           }
           value={page}
           onClick={updateCurrentPage}
@@ -94,11 +94,11 @@ const Pagination = ({ currentPage, setCurrentPage, totalPages }) => {
 
       <li>
         <button
-          className="block hover:text-gray-500 hover:bg-blue text-blue border-r border-grey-light px-3 py-2"
+          className="block hover:text-gray-500 hover:bg-blue text-blue pl-0 border-grey-light px-3 py-2"
           value={nextVal}
           onClick={updateCurrentPage}
         >
-          &#xbb;
+          {/* &#xbb; */}
         </button>
       </li>
       <li>
