@@ -10,6 +10,7 @@
     "react-hooks-async": "^2.1.0",
     "react-image": "^2.1.1",
     "react-lazyload": "^2.6.1",
+    "react": "^16.13.1",
     "react-masonry-component": "^6.2.1",
     "react-scripts": "3.0.1",
     "styled-components": "^4.2.1",
