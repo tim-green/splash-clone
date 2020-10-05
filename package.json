@@ -16,6 +16,7 @@
     "react-dom": "^16.13.1",
     "react-hooks-async": "^3.10.1",
     "react-image": "^4.0.3",
+    "react-image": "^2.1.1",
     "react-lazyload": "^3.0.0",
     "react-masonry-component": "^6.2.1",
     "react-scripts": "3.0.1",
